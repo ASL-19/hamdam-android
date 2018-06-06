@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_dark"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/grid_calendar_height">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/calendar_pager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/grid_calendar_height"
+                android:layout_marginTop="@dimen/toolbar_padding" />
+
+            <!--legend-->
+            <LinearLayout
+                android:id="@+id/legend_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:gravity="end"
+                android:layoutDirection="ltr"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/activity_title_padding"
+                android:paddingLeft="@dimen/button_margin_wide"
+                android:paddingRight="@dimen/activity_title_padding"
+                android:paddingStart="@dimen/button_margin_wide">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="4dip"
+                    android:paddingTop="4dip">
+
+                    <TextView
+                        android:id="@+id/period_legend_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/homepage_today_padding"
+                        android:text="@string/period_legend_text"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_legend_small" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/period_legend_icon"
+                        android:layout_width="@dimen/legend_icon_size"
+                        android:layout_height="@dimen/legend_icon_size"
+                        android:layout_margin="@dimen/homepage_today_padding"
+                        app:srcCompat="@drawable/period_window" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="4dip"
+                    android:paddingTop="4dip">
+
+                    <TextView
+                        android:id="@+id/ovu_legend_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/homepage_today_padding"
+                        android:text="@string/ovulation_legend_text"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_legend_small" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/ovu_legend_icon"
+                        android:layout_width="@dimen/legend_icon_size"
+                        android:layout_height="@dimen/legend_icon_size"
+                        android:layout_margin="@dimen/homepage_today_padding"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginRight="1dp"
+                        app:srcCompat="@drawable/ovulation_window" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:orientation="vertical">
+
+            <!--edit period button and today icon-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/button_margin_wide"
+                android:paddingLeft="@dimen/button_margin_wide"
+                android:paddingRight="@dimen/button_margin_wide"
+                android:paddingStart="@dimen/button_margin_wide">
+
+                <!--today icon-->
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/today"
+                    android:textAppearance="@style/HamdamTheme.TextAppearanceRegular"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_edit"
+                    android:visibility="gone" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/today_icon"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/legend_small_margin_padding"
+                    android:layout_marginStart="@dimen/legend_small_margin_padding"
+                    android:layout_toEndOf="@+id/today"
+                    android:layout_toRightOf="@+id/today"
+                    android:tint="@color/white"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/old_ic_undo" />
+
+                <!--edit period-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/period_edit_container"
+                    android:gravity="center"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true">
+
+                <TextView
+                    android:id="@+id/period_edit_legend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_period_legend_text"
+                    android:textSize="@dimen/text_size_edit"
+                    android:textColor="@color/white"
+                    tools:ignore="MissingPrefix"
+                    fontPath="fonts/iransans_bold.ttf"
+                    android:layout_margin="@dimen/toolbar_padding"/>
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/period_edit"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"/>
+                    <!--android:background="@drawable/icon_startperiod" />-->
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--daily questions -->
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/dailyquestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin"
+            android:clickable="true"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+            <RelativeLayout
+                android:id="@+id/daily_questions_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:padding="@dimen/card_padding">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/daily_questions_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/daily_questions_icon"
+                    android:layout_toStartOf="@+id/daily_questions_icon"
+                    android:text="@string/daily_questions"
+                    android:textColor="?attr/colorTextPrimary"
+                    android:textSize="@dimen/text_size_title" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/daily_questions_icon"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/icon_margin"
+                    android:layout_marginStart="@dimen/icon_margin"/>
+                    <!--android:background="@drawable/baricon_dailyq" />-->
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/go_daily_questions"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginStart="4dp"
+                    android:tint="?attr/colorTextPrimary"
+                    app:srcCompat="@drawable/n_left" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</ScrollView>

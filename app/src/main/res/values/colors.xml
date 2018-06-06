@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Fertility window colours @90% opaque -->
+    <color name="active_ovulation">#e92799FF</color>
+    <color name="active_period">#e9D83D6D</color>
+
+    <!--Question Topic colours for bar graph (varied from quiz view so all colors are distinguishable)-->
+    <color name="white">#ffffff</color>
+    <color name="primary_purple">#834EEA</color>
+
+    <color name="sleep">@color/light_background_purple</color>
+    <color name="sex">#EE1F60</color>
+    <color name="fluids">#2799FF</color>
+    <color name="exercise">@color/widget_holiday</color>
+    <color name="mood">#00A79D</color>
+    <color name="pain">#F7941D</color>
+    <color name="bleeding">#D83D6D</color>
+
+    <color name="health">#ff64ab</color>
+    <color name="marriage_rights">#ff9100</color>
+
+    <color name="health_status_bar">#fd0978</color>
+    <color name="marriage_rights_status_bar">#c67100</color>
+
+
+    <color name="light_background_purple">#834EEA</color>
+    <color name="medium_background_purple">#52319A</color>
+    <color name="dark_background_purple">#372166</color>
+
+    <color name="dim_background">#D9000000</color>
+    <color name="medium_background_purple_mask">#d052319A</color>
+
+    <!-- navid's colours, to make sure I include-->
+    <color name="light_text_grey">#d0d0d0</color>
+
+    <!-- old colours -->
+    <color name="widget_holiday">#35C4BC</color>
+
+    <color name="light_primary">#f1f2f2</color>
+    <color name="primary_dark">#372166</color>
+    <color name="light_accent">#52319A</color>
+
+
+    <color name="light_text_second">#737373</color>
+    <color name="light_text_primary">#52319A</color>
+    <color name="light_text_drawer">#737373</color>
+    <color name="light_text_day">#ffffff</color>
+
+    <color name="light_divider">#e0e0e0</color>
+    <color name="light_background">#ffffff</color>
+    <color name="light_grey_background">#f4f4f4</color>
+    <color name="light_card_background">#fafafa</color>
+    <color name="light_current_day">#4FC4BD</color>
+    <color name="light_select_day">#eff2f1</color>
+    <color name="light_drawer_background">#f4f4f4</color>
+    <color name="light_drawer_select">#eeeeee</color>
+
+    <color name="light_icon">#834EEA</color>
+    <color name="light_icon_drawer">#834EEA</color>
+
+    <!--end old colours-->
+
+    <color name="primary">#834EEA</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="accent">#9E9E9E</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+
+</resources>

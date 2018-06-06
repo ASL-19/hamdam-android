@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- These labels correspond to answer options for quiz questions. The order of array elements matters!-->
+    <!-- The text also has to be fairly concise to display as a legend item on the bar graph. -->
+    <string-array name="bleeding_labels">
+        <item>@string/spotting</item>
+        <item>@string/light</item>
+        <item>@string/medium</item>
+        <item>@string/heavy</item>
+    </string-array>
+
+    <string-array name="exercise_labels">
+        <item>@string/exercise</item>
+    </string-array>
+
+    <string-array name="sleep_labels">
+        <item>@string/no_sleep</item>
+        <item>@string/little_sleep</item>
+        <item>@string/average_sleep</item>
+        <item>@string/lots_sleep</item>
+    </string-array>
+
+    <string-array name="mood_labels">
+        <item>@string/happy</item>
+        <item>@string/neutral</item>
+        <item>@string/sad</item>
+        <item>@string/pms</item>
+    </string-array>
+
+    <string-array name="sex_labels">
+        <item>@string/protected_sex</item>
+        <item>@string/unprotected_sex</item>
+    </string-array>
+
+    <string-array name="pain_labels">
+        <item>@string/headache</item>
+        <item>@string/cramps</item>
+        <item>@string/backache</item>
+        <item>@string/breast_tenderness</item>
+    </string-array>
+
+    <string-array name="fluids_labels">
+        <item>@string/sticky</item>
+        <item>@string/creamy</item>
+        <item>@string/eggwhite</item>
+        <item>@string/abnormal</item>
+    </string-array>
+
+
+    <integer-array name="barGraphColors" translatable="false">
+        <item>@color/bleeding</item>
+        <item>@color/fluids</item>
+        <item>@color/exercise</item>
+        <item>@color/pain</item>
+        <item>@color/sex</item>
+        <item>@color/sleep</item>
+        <item>@color/mood</item>
+        <item>@color/light_accent</item>
+    </integer-array>
+
+    <!--new arrays-->
+    <integer-array name="titleIconsUnselected" translatable="false">
+        <item>@drawable/qicon_sex</item>
+        <item>@drawable/qicon_exercise</item>
+        <item>@drawable/qicon_sleep</item>
+        <item>@drawable/icon_positivemood</item>
+        <item>@drawable/qicon_pain</item>
+        <item>@drawable/qicon_fluids</item>
+        <item>@drawable/icon_bleeding1</item>
+    </integer-array>
+
+    <integer-array name="titleIconsSelected" translatable="false">
+        <item>@drawable/qicon_sex_s</item>
+        <item>@drawable/qicon_exercise_s</item>
+        <item>@drawable/qicon_sleep_s</item>
+        <item>@drawable/icon_positivemood_s</item>
+        <item>@drawable/qicon_pain_s</item>
+        <item>@drawable/qicon_fluids_s</item>
+        <item>@drawable/icon_bleeding1_s</item>
+    </integer-array>
+
+    <!-- these arrays need corresponding Farsi translations or to be replaced with farsi characters!-->
+
+    <string-array name="reminderIntervalEntries">
+        <item>@string/daily</item>
+        <item>@string/weekly</item>
+        <item>@string/monthly</item>
+        <item>@string/custom</item>
+    </string-array>
+
+    <string-array name="reminderDelayEntries">
+        <item>@string/same_day</item>
+        <item>@string/one_day_early</item>
+        <item>@string/two_days_early</item>
+    </string-array>
+
+    <string-array name="birthControlEntries">
+        <item>@string/pill</item>
+        <item>@string/patch</item>
+        <item>@string/iud</item>
+        <item>@string/other</item>
+        <item>@string/bc_none</item>
+    </string-array>
+
+
+    <string-array name="drawerTitles">
+        <item>@string/home</item>
+        <item>@string/user_preferences</item>
+        <item>@string/notifications</item>
+        <item>@string/calendar</item>
+        <item>@string/your_data</item>
+        <item>@string/health_info</item>
+        <item>@string/domestic_rights</item>
+        <item>@string/call_button_123</item>
+        <item>@string/about</item>
+        <item>@string/privacy_policy</item>
+        <item>@string/license</item>
+    </string-array>
+
+    <string-array name="drawerSubtitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <!-- end arrays that need translations -->
+
+    <string-array name="birthControlValues" translatable="false">
+        <item>Pill</item>
+        <item>Patch</item>
+        <item>IUD</item>
+        <item>Other</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="reminderDelayValues" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="reminderIntervalValues" translatable="false">
+        <item>1</item>
+        <item>7</item>
+        <item>30</item>
+    </string-array>
+    <!-- end new arrays-> <!-->
+
+
+    <string-array name="drawerIcons" translatable="false">
+        <item>@drawable/baricon_hamdam</item>
+        <item>@drawable/baricon_user</item>
+        <item>@drawable/baricon_notification</item>
+        <item>@drawable/baricon_calendar</item>
+        <item>@drawable/baricon_graph</item>
+        <item>@drawable/baricon_health</item>
+        <item>@drawable/baricon_social</item>
+        <item>@drawable/ic_call_123</item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="persian_months">
+        <item>Favardin</item>
+        <item>Ordibehest</item>
+        <item>Khordad</item>
+        <item>Tir</item>
+        <item>Mordad</item>
+        <item>Shahrivar</item>
+        <item>Mehr</item>
+        <item>Aban</item>
+        <item>Azar</item>
+        <item>Dey</item>
+        <item>Bahman</item>
+        <item>Esfand</item>
+    </string-array>
+
+    <string-array name="weekdays">
+        <item>Shanbah</item>
+        <item>Yakshanbah</item>
+        <item>Dushanbah</item>
+        <item>Sahshanbah</item>
+        <item>Chihar shanbah</item>
+        <item>Panj shanbah</item>
+        <item>Jumah</item>
+    </string-array>
+
+</resources>

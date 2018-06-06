@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_gradient_light"
+        android:layoutDirection="ltr"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/pagerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/dsTextView"
+                fontPath="fonts/iransans_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/toolbar_padding"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/toolbar_padding"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="4dip"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_title"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+
+            <me.crosswall.lib.coverflow.core.LinkagePagerContainer
+                android:id="@+id/pager_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dsTextView">
+
+                <android.support.v4.view.LinkagePager
+                    android:id="@+id/linkageTitlePager"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/toolbar_padding"
+                    android:paddingEnd="110dp"
+                    android:paddingLeft="110dp"
+                    android:paddingRight="110dp"
+                    android:paddingStart="110dp" />
+
+            </me.crosswall.lib.coverflow.core.LinkagePagerContainer>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/prev"
+                android:layout_width="@dimen/long_title_button_padding_portrait"
+                android:layout_height="@dimen/splash_icon_size"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/dsTextView"
+                android:layout_marginTop="@dimen/period_button_padding"
+                android:alpha="0.0"
+                android:paddingEnd="@dimen/toolbar_padding_horizontal"
+                android:paddingLeft="0dp"
+                android:paddingRight="@dimen/toolbar_padding_horizontal"
+                android:paddingStart="0dp"
+                android:tint="?attr/colorMonthSwitch"
+                app:srcCompat="@drawable/old_ic_keyboard_arrow_left" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/next"
+                android:layout_width="@dimen/long_title_button_padding_portrait"
+                android:layout_height="@dimen/splash_icon_size"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/dsTextView"
+                android:layout_marginTop="@dimen/period_button_padding"
+                android:alpha="0.0"
+                android:paddingEnd="0dp"
+                android:paddingLeft="@dimen/toolbar_padding_horizontal"
+                android:paddingRight="0dp"
+                android:paddingStart="@dimen/toolbar_padding_horizontal"
+                android:tint="?attr/colorMonthSwitch"
+                app:srcCompat="@drawable/old_ic_keyboard_arrow_right" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/body_pager_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v4.view.LinkagePager
+                android:id="@+id/linkageBodyPager"
+                android:layout_width="match_parent"
+                android:layout_height="260dip"/>
+        </LinearLayout>
+
+        <com.hamdam.hamdam.view.FilterTouchButton
+            android:id="@+id/done"
+            style="?attr/borderlessButtonStyle"
+            fontPath="fonts/iransans_bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dip"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_title"
+            tools:ignore="MissingPrefix"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="center"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabIndicatorHeight="0dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"/>
+    </LinearLayout>
+</ScrollView>

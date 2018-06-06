@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_update_failed">به روز رسانی ناموفق بود</string>
+    <string name="download_success">دانلود موفق</string>
+    <string name="update_prompt_title">آپدیت جدید همدم</string>
+    <string name="update_prompt">آپدیت‌ شامل رفع ایرادها و پیشرفت تجربه کاربری اپلیکیشن همدم است. علاقه دارید آپدیت کنید؟</string>
+    <string name="install_update">نصب به روز رسانی</string>
+
+    <string name="version">نگارش</string>
+    <string name="closeDrawer">بستن</string>
+    <string name="openDrawer">گشودن</string>
+    <string name="events">رویداد‌ها</string>
+    <string name="today">امروز</string>
+
+    <string name="goto_date">برو به تاریخ</string>
+    <string name="select">انتخاب</string>
+    <string name="select_time">انتخاب زمان</string>
+
+    <!-- INSTRUCTIONS, TUTORIALS, ONBOARDING -->
+
+    <string name="onboarding_question_birth_control"> از روش‌های پیشگیری از بارداری استفاده می‌کنید؟</string>
+    <string name="onboarding_question_period_length"> پریود شما معمولاً چند روز طول می‌کشد؟</string>
+    <string name="onboarding_question_last_period">تاریخ آغاز آخرین پریود شما کی بوده است؟</string>
+    <string name="onboarding_question_total_cycle_length">چرخه قاعدگی شما چند روز طول می‌کشد؟ </string>
+
+
+    <!-- Onboarding popups: tutorial mode -->
+
+    <string name="tooltips_dismiss_casual"> فهمیدم </string>
+    <string name="tooltips_start_period_blurb">در دوره پریود خود هستید؟ اطلاعات را به روز کنید </string>
+    <string name="tooltips_daily_questions_blurb">همدم‫:‬ امروز چطوری؟</string>
+    <string name="tooltips_timeline_blurb">نگاهی به تقویم باروری بینداز </string>
+    <string name="tooltips_finished_title">همه چیز تنظیم شد‫!‬ </string>
+    <string name="tooltips_finished"> هروقت خواستی می‌توانی این گزینه‌ها را در تنطیمات فعال کنی.‬</string>
+    <string name="tooltips_calendar_blurb">داده‌های ماه‌های گذشته را بررسی کن تا تاریخ پریود بعدی را پیش‌بینی کنی.‬</string>
+    <string name="tooltips_questions_howto_blurb">پرسش‌ها را جواب بده.‬  روی گزینه مناسب کلیک کن و برای دیدن سوالات بعدی صفحه را حرکت بده.‬</string>
+
+
+    <!-- ALARMS, NOTIFICATIONS -->
+
+    <!-- Notifications appearing on user's phone -->
+    <string name="notification_body_breast_exam">یادآوری‫:‬ امروز وقت مناسبی برای معاینه پستان‌ها است‫.‬ </string>
+    <string name="notification_body_pms">یادآوری‫:‬ ممکن است به زودی سندرم پیش از قاعدگی را تجربه کنی</string>
+    <string name="notification_body_period">یادآوری‫:‬ دوره قاعدگی بعدی  به زودی آغاز می‌شود‫‬</string>
+    <string name="dismiss">لغو</string>
+    <string name="notification_body_medication">یادآوری‫:‬ مصرف قرص روزانه را فراموش نکنید‫.‬</string>
+
+    <!-- Confirmation toast message when alarm is set: concat with date that it is set -->
+    <string name="alarm_confirmation_message"> تنطیم یادآوری</string>
+
+    <!-- Default notification title if no other title set -->
+    <!-- Don't change the names of these two notofication resources! They must be stable across app updates for users that have pending notifications set and then update the app.-->
+    <string name="default_notification_string">برای مشاهده یادآوری‌ کلیک کن</string>
+    <string name="default_notification_title">یادآوری جدید</string>
+
+    <string name="dialog_breast_exam_title">معاینه پستان‌ها</string>
+    <string name="dialog_breast_exam_message">مهم است که ماهی یک بار خودت پستان‌ها را معاینه کنی و نشانه‌های غیرعادی را بشناسی.‬ </string>
+
+    <!-- Dealing with Periods: set a reminder: Same day (day of), One day early, two days early-->
+    <string name="none">لازم نیست</string>
+    <string name="same_day">همان روز</string>
+    <string name="one_day_early">یک روز زودتر</string>
+    <string name="two_days_early">دو روز زودتر</string>
+
+    <string name="weekly">هفتگی</string>  <!-- lookup-->
+    <string name="remind_interval_summary">روز یک بار یادآوری کن</string>
+    <string name="custom">گزینه های دیگر</string>  <!-- lookup-->
+
+    <string name="select_reminder_interval">تنظیم یادآوری</string>
+
+    <!-- Data/User settings -->
+    <string name="clear_data">اطلاعاتم را پاک کن</string>
+    <string name="clear_data_explanation">اطلاعات باروی من را پاک کن</string>
+    <string name="restart_onboarding">نمایش دستورالعمل</string> <!-- lookup-->
+    <string name="requires_restart">راه اندازی مجدد برنامه</string>  <!-- lookup-->
+
+    <!-- MENU, NAVIGATION BAR -->
+
+    <string name="app_name">همدم</string>
+    <string name="home">خانه</string>
+    <string name="settings">تنظیمات</string>
+    <string name="about">درباره همدم </string>
+    <string name="general">عمومی</string>
+    <string name="calendar">تقویم</string>
+    <string name="user_preferences">تنظیمات کاربر</string>
+    <string name="notifications">یادآوری‌ها</string>
+    <string name="call_button_123">تماس با اورژانس اجتماعی ایران ۱۲۳</string>
+    <string name="license">نرم‌افزارهای متن‌باز</string>
+
+    <!-- COMMANDS, BUTTONS -->
+    <string name="skip">بگذریم</string>
+    <string name="next">بعدی</string>
+    <string name="done">تمام</string>
+    <string name="off">خاموش</string>
+    <string name="on">روشن</string>
+    <string name="ok">تأیید</string>
+    <string name="cancel">لغو</string>
+    <string name="back_to_topics">بازگشت به موضوع‌ها</string>
+    <string name="get_started">شروع کنیم</string>
+
+    <!-- CALENDAR, PERIOD STUFF -->
+
+    <string name="cycle_at_a_glance">دوره قاعدگی در یک نگاه </string>
+    <string name="period_due">امروز زمان پریود شماست</string>
+    <string name="end_period_legend_text">پایان پریود</string>
+    <string name="start_period_legend_text">شروع پریود</string>
+
+    <string name="edit_later_hint">این را می‌توانید بعداً بازنویسی کنید</string>
+    <string name="edit_period_legend_text">ویرایش پریود</string>
+
+    <string name="period_length">طول مدت پریود </string>
+    <string name="cycle_length">طول چرخه قاعدگی </string>
+    <string name="pms_length">طول سندرم پیش از قاعدگی</string>
+    <string name="error_edit_future_date">تاریخی در گذشته یا حداکثر امروز انتخاب کنید‫!‬</string>
+
+    <string name="enable_period_reminder">یادآور پریود</string>
+    <string name="enable_pms_reminder">یادآور سندرم پیش از قاعدگی</string>
+    <string name="enable_breast_exam_reminder">یادآور معاینه پستان‌ها</string>
+    <string name="enable_birth_control_reminder">یادآور پیشگیری از بارداری</string>
+    <string name="data">داده‌ها</string>
+
+    <!-- MISC -->
+    <string name="faq">پرسش و پاسخ</string>
+
+    <string name="period_today">امروز پریود هستم</string>
+    <string name="days_till_period">روز تا پریود بعدی </string> <!-- "__ days to go" -->
+    <string name="days_period_late">روز پریود عقب افتاده است </string>
+    <string name="storage_permission">اجازه برای ذخیره‌سازی</string>
+
+    <string name="period_legend_text"> پریود</string>
+    <string name="ovulation_legend_text">تخمک‌گذاری</string>
+    <string name="fertility_accuracy_disclaimer_text">این پیش‌بینی‌ها تنها بر اساس داده‌های شما هستند و جایگزین اطلاعات پزشکی نمی‌شوند‫.‬</string>
+    <string name="number_of_days">تعداد روزها</string>
+    <string name="domestic_rights">حقوق زنان</string>
+    <string name="health_info">سلامت جنسی</string>
+    <string name="enable_notifications">فعال‌سازی یادآور‌ها</string>
+    <string name="monthly">ماهانه</string>
+    <string name="daily">روزانه</string>
+    <string name="period_start_stop">در دوره پریود هستی؟</string>
+    <string name="explain_123">۱۲۳ چیست؟</string>
+    <string name="instruction_text_123">۱۲۳ شماره تلفن اورژانس اجتماعی ایران است که در مواردی چون خشونت خانگی کاربرد دارد‫.‬ اگر در معرض خشونت خانگی هستی یا کسی را می‌شناسی که قربانی آن است با این شماره تماس بگیر.‬</string>
+    <string name="disclaimer">سلب مسئولیت</string>
+    <string name="privacy_policy">حریم خصوصی</string>
+    <!-- DAILY STATUS TOPICS -->
+
+    <string name="daily_questions">احوالپرسی روزانه همدم</string>
+
+    <string name="pain">درد</string>
+    <string name="headache">سردرد</string>
+    <string name="backache">کمردرد</string>
+    <string name="breast_tenderness">پستان‌های دردناک</string>
+    <string name="cramps">انقباض شکمی</string>
+
+    <string name="mood">حال عمومی</string>
+    <string name="happy">شاد</string>
+    <string name="neutral">معمولی</string>
+    <string name="sad">غمگین</string>
+    <string name="pms">سندروم پیش از قاعدگی</string>
+
+    <string name="sleep">خواب</string>
+
+    <string name="no_sleep">۰ تا ۳ ساعت</string>
+    <string name="little_sleep">۳ تا ۶ ساعت</string>
+    <string name="average_sleep">۶ تا ۹ ساعت</string>
+    <string name="lots_sleep">بیش از ۹ ساعت</string>
+
+    <string name="sex">رابطه جنسی</string>
+    <string name="protected_sex">محافظت شده</string>
+    <string name="unprotected_sex">محافظت نشده</string>
+
+    <string name="exercise">ورزش و نرمش</string>
+
+    <string name="bleeding">خونریزی</string>
+    <string name="light">سبک</string>
+    <string name="medium">متوسط</string>
+    <string name="heavy">سنگین</string>
+    <string name="spotting">لکه بینی</string>
+
+    <string name="fluids"> ترشحات</string>
+    <string name="creamy">غلیظ</string>
+    <string name="sticky">چسبنده</string>
+    <string name="eggwhite">سفید </string>
+    <string name="abnormal">بو یا رنگ غیرطبیعی</string>
+
+    <string name="body">تن</string>
+    <string name="mind">روان </string>
+    <string name="fertility">باروری </string>
+
+
+    <!--REMINDERS-->
+
+    <string name="preference_options">گزینه‌های تنظیمات</string>
+    <string name="never">هیچوقت </string>
+
+    <string name="birth_control">پیشگیری از بارداری</string>
+    <string name="pill">قرص ضد بارداری</string>
+    <string name="patch">چسب </string>
+    <string name="iud">آی‌یو‌دی</string>
+    <string name="bc_none">هیچ روشی</string>
+    <string name="other">روش‌های دیگر </string>
+
+    <string name="birth_control_reminder">یادآور روش پیشگیری</string>
+    <string name="breast_exam_reminder">یادآور معاینه پستان‌ها</string>
+    <string name="pms_reminder">یادآور سندروم پیش از قاعدگی</string>
+    <string name="period_reminder">یادآور روز اول قاعدگی </string>
+
+    <!--INFOGRAPHIC -->
+
+    <string name="your_data">اطلاعات شما</string>
+    <string name="average_period_length">متوسط طول دوره پریود </string>
+    <string name="average_cycle_length">متوسط طول جرخه قاعدگی</string>
+    <string name="export_data">گزارش ماه‌های گذشته</string>
+    <string name="exercise_summary">تعداد روزهایی که ورزش کرده‌اید</string>
+    <string name="chart_title_status_breakdown">اطلاعات من بر اساس دسته</string>
+    <string name="error_not_enough_data">همدم هنوز به اندازه کافی اطلاعات ندارد! </string>
+
+    <string name="chart_title_cycle_lengths">چرخه‌های قاعدگی در یک نگاه</string>
+    <string name="chart_title_period_lengths">مدت پریود در یک نگاه</string>
+
+    <!-- STORAGE, DATA -->
+
+    <string name="storage_permission_message"> همدم از شما برای ذخیره‌سازی داده‌ها در دستگاهتان اجازه می‌گیرد. برای خروجی گرفتن از داده‌ها همدم به این اجازه نیاز دارد.</string>
+    <string name="clear_data_warning"> مطمئنید؟ این کار تمام اطلاعات قبلی که به همدم داده اید و هم نتایج و آمار را پاک می‌کند و دیگر هرگز قابل بازیابی نخواهند بود. با این وجود می‌خواهید اطلاعات را پاک کنید؟</string>
+
+    <string name="enable_prediction_mode">پیش‌بینی هوشمند</string>
+    <string name="prediction_mode_description">از داده‌های پریودهای قبلی برای پیش‌بینی پریود بعدی استفاده کنید</string>
+    <string name="prediction_mode_explanation">اگر پیش‌بینی هوشمند خاموش باشد، همدم بر اساس تعداد روزهایی که خودتان برای طول دوره قاعدگی ماهانه و پریود در بخش تنظیمات وارد کرده‌اید، تاریخ‌ها را پیش‌بینی می‌کند.</string>
+
+    <string name="error_export_data"> ببخشید! در خروجی گرفتن از اطلاعات شما مشکلی پیش آمد.</string>
+    <string name="error_export_data_device_permission">ببخشید! در خروجی گرفتن از اطلاعات شما مشکلی پیش آمد. آیا اجازه ذخیره اطلاعات در دستگاهتان را به همدم داده‌اید؟ </string>
+    <string name="exporting_data">همدم مشغول خروجی گرفتن است </string>
+    <string name="confirmation_message_saved">فایل ذخیره شد. </string>
+
+    <!-- MISC -->
+    <string name="insecure_site_warning">این وبسایت از پروتکل امن انتقال داده اچ‌تی‌تی‌پی‌اس استفاده نمی‌کند.</string>
+    <string name="insecure_site_title">هشدار</string>
+
+    <string name="privacy_policy_body">اطلاعاتی که شما در مورد وضعیت سلامت خود از جمله در بخش‌های «احوال‌پرسی‌روزانه شما» و «چرخه قاعدگی » وارد می‌کنید تنها بر روی دستگاه خود شما نگه‌داری می‌شود. اپلیکیشن همدم نیازی برای اتصال به اینترنت ندارد و اطلاعات شما هرگز به تولید کننده‌گان اپلیکیش یا هیچ فرد و سازمانی انتقال داده نمی‌شود. این سیاست باعث می‌شود نگران دسترسی دیگران به اطلاعات خصوصی‌تان نباشید.\n\n
+
+از آنجایی که همدم سروری ندارد٬ اطلاعات شما در صورت پاک شدن اپلیکیشن قابل بازیابی نیستند.\n\n
+
+اطمینان حاصل کردن از عدم دسترسی دیگران به این اطلاعات بر روی تلفن همراه برعهده کاربر است.\n\nاطمینان حاصل کردن از عدم دسترسی دیگران به این اطلاعات بر روی تلفن همراه برعهده کاربر است.</string>
+    <string name="subheading_google_analytics">گوگل آنالیتیکس</string>
+    <string name="google_analytics_body">همدم برای پیشرفت تجربه کاربری، عملکرد بستر اجرایی و دیگر آمارها از سرویس گوگل آنالیتیکس استفاده می‌کند. برخی از این آمار مورد استفاده، ابزار و امکانات کاربر از جمله سیستم‌عامل، دستگاه مورد استفاده (گوشی، تبلت)، زبان٬ مدت زمان استفاده، کاربران یکتا و کاربران جدید و غیره هستند. اطلاعات به دست آمده از گوگل آنالیتیکس تنها به منظور تحلیل آماری مرتبط با رفتار شما در اپلیکیشن استفاده می‌شود. اطلاعات به دست آمده با هیچ منبع دیگری که فرد را قابل شناسایی کند تطبیق داده نمی‌شوند.\n\n
+
+توانایی گوگل برای استفاده و به هم‌رسانی اطلاعات گردآوری‌شده توسط گوگل آنالیتیکس به شرایط استفاده از این سامانه و سیاست‌های حفظ حریم خصوصی گوگل محدود می‌شود.</string>
+
+</resources>

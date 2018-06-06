@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <attr name="colorCard" format="reference" />
+    <attr name="colorBackground" format="reference" />
+    <attr name="colorTextPrimary" format="reference" />
+    <attr name="colorIcon" format="reference" />
+    <attr name="colorTextNormal" format="reference" />
+    <attr name="colorTextSecond" format="reference" />
+    <attr name="colorTextHoliday" format="reference" />
+    <attr name="colorHoliday" format="reference" />
+    <attr name="colorTextDrawer" format="reference" />
+    <attr name="colorTextDay" format="reference" />
+    <attr name="colorTextDayName" format="reference" />
+    <attr name="colorMonthSwitch" format="reference" />
+    <attr name="colorDivider" format="reference" />
+    <attr name="colorCurrentDay" format="reference" />
+    <attr name="colorSelectDay" format="reference" />
+    <attr name="colorDrawerBackground" format="reference" />
+    <attr name="colorDrawerSelect" format="reference" />
+    <attr name="colorDrawerIcon" format="reference" />
+
+    <attr name="circleCurrentDay" format="reference" />
+    <attr name="circleSelect" format="reference" />
+    <attr name="appDivider" format="reference" />
+
+    <attr name="periodWindow" format="reference" />
+    <attr name="ovulationWindow" format="reference" />
+    <attr name="colorPrimaryPurple" format="reference" />
+
+    <!-- Base application theme. -->
+    <style name="HamdamTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/light_accent</item>
+        <item name="android:textColorAlertDialogListItem">@color/dark_background_purple</item>
+        <!-- Customize your theme here. -->
+
+        <item name="colorButtonNormal">@color/dark_background_purple</item>
+        <item name="colorControlActivated">@color/dark_background_purple</item>
+        <item name="colorControlHighlight">@color/dark_background_purple</item>
+
+        <item name="android:alertDialogTheme">@style/HamdamTheme.CustomDialogStyle</item>
+        <item name="android:dialogPreferenceStyle">@style/HamdamTheme.CustomDialogStyle</item>
+        <item name="android:dialogTheme">@style/HamdamTheme.CustomDialogStyle</item>
+        <item name="alertDialogTheme">@style/HamdamTheme.CustomDialogStyle</item>
+        <item name="dialogPreferenceStyle">@style/HamdamTheme.CustomDialogStyle</item>
+        <item name="dialogTheme">@style/HamdamTheme.CustomDialogStyle</item>
+        <item name="android:buttonBarButtonStyle">@style/HamdamTheme.CustomBorderlessButtonStyle</item>
+        <item name="android:borderlessButtonStyle">@style/HamdamTheme.CustomBorderlessButtonStyle</item>
+        <item name="preferenceTheme">@style/HamdamTheme.CustomPreferenceThemeOverlay</item>
+        <item name="android:buttonStyle">@style/HamdamTheme.CustomBorderlessButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/HamdamTheme.CustomBorderlessButtonStyle</item>
+        <item name="colorCard">@color/white</item>
+        <item name="colorBackground">@color/light_primary</item>
+        <item name="colorTextPrimary">@color/light_text_primary</item>
+        <item name="colorIcon">@color/light_icon</item>
+        <item name="colorPrimaryPurple">@color/primary_purple</item>
+        <item name="colorTextNormal">@color/normal_text_selector_color</item>
+        <item name="colorTextSecond">@color/light_text_second</item>
+        <item name="colorTextHoliday">@color/light_icon</item>
+        <item name="colorHoliday">@color/light_icon</item>
+        <item name="colorTextDrawer">@color/light_text_drawer</item>
+        <item name="colorTextDay">@color/light_text_day</item>
+        <item name="colorTextDayName">@color/light_icon</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorCurrentDay">@color/light_icon</item>
+        <item name="colorSelectDay">@color/light_select_day</item>
+        <item name="colorDrawerBackground">@color/light_drawer_background</item>
+        <item name="colorDrawerSelect">@color/light_drawer_select</item>
+        <item name="colorDrawerIcon">@color/light_icon_drawer</item>
+        <item name="colorMonthSwitch">@color/light_accent</item>
+        <item name="circleCurrentDay">@drawable/old_circle_current_day_light</item>
+        <item name="circleSelect">@drawable/circle_select_light</item>
+        <item name="appDivider">@drawable/app_divider_light</item>
+        <item name="periodWindow">@drawable/period_window</item>
+        <item name="ovulationWindow">@drawable/ovulation_window</item>
+        <item name="android:textColorPrimary">@color/normal_text_selector_color</item>
+        <item name="android:colorForeground">@color/dark_background_purple</item>
+        <item name="colorControlNormal">@color/light_background_purple</item>
+        <item name="android:textViewStyle">@style/HamdamTheme.TextAppearanceRegular</item>
+    </style>
+
+    <style name="HamdamTheme.ShadowTextStyle">
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="HamdamTheme.HomepageListViewStyle">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="HamdamTheme.PickerStyle">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="HamdamTheme.ActionBarStylePurple">
+        <item name="android:background">@color/light_background_purple</item>
+        <item name="background">@color/light_background_purple</item>
+        <item name="android:color">@color/light_background_purple</item>
+    </style>
+
+    <style name="HamdamTheme.CustomDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/dark_background_purple</item>
+        <item name="background">@color/white</item>
+        <item name="textColorAlertDialogListItem">@color/dark_background_purple</item>
+        <item name="colorPrimary">@color/dark_background_purple</item>
+        <item name="android:textColor">@color/dark_background_purple</item>
+        <item name="colorButtonNormal">@color/dark_background_purple</item>
+        <item name="android:borderlessButtonStyle">@style/HamdamTheme.CustomBorderlessButtonStyle</item>
+        <item name="android:buttonStyle">@style/HamdamTheme.CustomBorderlessButtonStyle</item>
+        <item name="android:buttonBarButtonStyle">@style/HamdamTheme.CustomBorderlessButtonStyle</item>
+    </style>
+
+    <style name="HamdamTheme.CustomRomanDialogStyle" parent="HamdamTheme.CustomDialogStyle">
+        <item name="android:textAppearance">@style/HamdamTheme.TextAppearanceRomanNumbers</item>
+    </style>
+
+    <style name="HamdamTheme.CustomPreferenceThemeOverlay" parent="@style/PreferenceThemeOverlay">
+        <item name="android:textSize">18sp</item>
+        <item name="dialogPreferenceStyle">@style/HamdamTheme.CustomDialogStyle</item>
+        <item name="colorAccent">@color/dark_background_purple</item>
+        <item name="android:textColorSecondary">@color/light_text_grey</item>
+    </style>
+
+    <style name="HamdamTheme.CustomBorderlessButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/dark_background_purple</item>
+        <item name="colorPrimary">@color/dark_background_purple</item>
+        <item name="colorAccent">@color/dark_background_purple</item>
+    </style>
+    <style name="HamdamTheme.GraphLegendTextStyle">
+        <item name="android:textAppearance">@style/HamdamTheme.TextAppearanceRegular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:paddingLeft">7dip</item>
+        <item name="android:paddingRight">7dip</item>
+        <item name="android:paddingStart" tools:targetApi="17">7dip</item>
+        <item name="android:paddingEnd" tools:targetApi="17">7dip</item>
+    </style>
+
+    <style name="DrawerArrowTheme" parent="Widget.AppCompat.DrawerArrowToggle">
+    <item name="android:background">@color/light_background_purple</item>
+    <item name="background">@color/light_background_purple</item>
+    <item name="android:color">@color/light_background_purple</item>
+    <item name="spinBars">false</item>
+</style>
+
+    <style name="HamdamTheme.TextAppearanceRegular" tools:ignore="MissingPrefix">
+        <item name="fontPath">fonts/iransans.ttf</item>
+    </style>
+
+    <style name="HamdamTheme.TextAppearanceBold" tools:ignore="MissingPrefix">
+        <item name="fontPath">fonts/iransans_bold.ttf</item>
+    </style>
+
+    <style name="HamdamTheme.TextAppearanceLight" tools:ignore="MissingPrefix">
+        <item name="fontPath">fonts/iransans_light.ttf</item>
+    </style>
+
+    <style name="HamdamTheme.TextAppearanceRomanNumbers" tools:ignore="MissingPrefix">
+        <item name="fontPath">fonts/iransans_arabicnum.ttf</item>
+    </style>
+
+
+</resources>

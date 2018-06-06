@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- INSTRUCTIONS, TUTORIALS, ONBOARDING -->
+    <string name="onboarding_question_birth_control">Are you on birth control?</string>
+    <string name="onboarding_question_period_length">How many days are your periods usually?</string>
+    <string name="onboarding_question_last_period">When was your last period?</string>
+    <string name="onboarding_question_total_cycle_length">How many days is your whole cycle in total?</string>
+    <string name="get_started">Get started</string>
+
+    <!-- Onboarding popups: tutorial mode -->
+    <string name="tooltips_dismiss_casual">Got it</string>
+    <string name="tooltips_start_period_blurb">On your period? Click here to add your cycle on the calendar.</string>
+    <string name="tooltips_daily_questions_blurb">How are you today? Take the daily quiz.</string>
+    <string name="tooltips_timeline_blurb">Here\'s a quick view of your fertility calendar.</string>
+    <string name="tooltips_finished_title">You\'re all set!</string>
+    <string name="tooltips_finished">Get started with Hamdam by visiting the calendar or answering quiz questions.</string>
+    <string name="tooltips_calendar_blurb">Track your periods, add past cycles or fill out past quizzes by clicking on the calendar days.</string>
+    <string name="tooltips_questions_howto_blurb">Answer questions in different categories. Tap a on option below to answer, and swipe to see more questions.</string>
+
+    <!-- ALARMS, NOTIFICATIONS -->
+    <string name="notification_body_breast_exam">Reminder: time for a breast exam.</string>
+    <string name="notification_body_medication">Reminder: daily medication.</string>
+    <string name="notification_body_pms">Reminder: You may experience PMS soon.</string>
+    <string name="notification_body_period">Reminder: you may have your period soon.</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="select_time">Set reminder time</string>
+
+    <string name="alarm_confirmation_message">Alarm set </string> <!--message shown in toast when user sets alarm, together with set date -->
+
+    <!-- Don't change the names of these two notofication resources! They must be stable across app updates for users that have pending notifications set and then update the app.-->
+    <string name="default_notification_title">New reminder</string>
+    <string name="default_notification_string">Tap to view</string>
+
+    <string name="dialog_breast_exam_title">Breast Exam</string>
+    <string name="dialog_breast_exam_message">Once a month, it is important to perform a self-exam on your breasts to check for lumps.</string>
+
+    <string name="none">none</string>
+    <string name="same_day">same day</string>
+    <string name="one_day_early">one day early</string>
+    <string name="two_days_early">two days early</string>
+    <string name="weekly">weekly</string>
+    <string name="monthly">monthly</string>
+    <string name="daily">daily</string>
+    <string name="custom">Set custom interval&#8230;</string>
+
+    <!-- MENU, NAV BAR-->
+
+    <string name="app_name">Hamdam</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="home">home</string>
+    <string name="general">General</string>
+    <string name="calendar">Calendar</string>
+    <string name="user_preferences">user preferences</string>
+    <string name="notifications">notifications</string>
+    <string name="call_button_123">call 123 (iran only)</string>
+    <string name="daily_questions">daily questions</string>
+    <string name="infographic">my data</string>
+    <string name="domestic_rights">domestic rights</string>
+    <string name="health_info">health info</string>
+    <string name="license">License</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <!--COMMANDS, BUTTONS -->
+
+    <string name="error_export_data">Sorry, we ran into a problem exporting your data.</string>
+    <string name="error_export_data_device_permission">Sorry, we ran into problems exporting your data. Have you enabled storage permissions?</string>
+    <string name="exporting_data">Exporting data&#8230;</string>
+    <string name="confirmation_message_saved">File saved</string>
+
+    <string name="error_update_failed">Update installation failed</string>
+
+    <string name="exercise_summary">Number of days you have exercised</string>
+    <string name="pie_chart_hint_text">Click a category for details</string>
+
+    <string name="back_to_topics">Back to topics</string>
+
+    <!-- New Strings that have been added and need farsi translation start here -->
+    <string name="storage_permission">Storage Permissions</string>
+    <string name="storage_permission_message">You will be asked if Hamdam can access media storage. To export your data, this permission is required.</string>
+    <string name="chart_title_cycle_lengths">Cycle lengths at a glance</string>
+    <string name="chart_title_period_lengths">Period lengths at a glance</string>
+    <string name="chart_title_status_breakdown">My data by type</string>
+    <string name="error_not_enough_data">Not enough data yet!</string>
+    <string name="insecure_site_warning">Warning: the following webpage does not support https. Visit anyway?</string>
+    <string name="insecure_site_title">Connection warning</string>
+
+    <string name="skip">skip</string>
+    <string name="next">next</string>
+    <string name="done">done</string>
+    <string name="ok">OK</string>
+    <string name="off">off</string>
+    <string name="on">on</string>
+    <string name="cancel">cancel</string>
+
+    <!-- CALENDAR, PERIOD STUFF -->
+
+    <!--Period Preferences-->
+    <string name="period_length">Period Length</string>
+    <string name="cycle_length">Total cycle length</string>
+    <string name="pms_length">Pms length</string>
+    <string name="error_edit_future_date">Oops - select a past or current date!</string>
+
+    <string name="cycle_at_a_glance">Cycle at a glance</string>
+
+    <string name="enable_notifications">enable notifications</string>
+    <string name="enable_period_reminder">Period reminder</string>
+    <string name="enable_pms_reminder">PmsReminder</string>
+    <string name="enable_breast_exam_reminder">BreastExamReminder</string>
+    <string name="enable_birth_control_reminder">BirthControlReminder</string>
+    <string name="enable_prediction_mode">Smart prediction mode</string>
+    <string name="prediction_mode_description">Use your past cycles to predict your period</string>
+    <string name="prediction_mode_explanation">If prediction mode is off, Hamdam will forecast your periods based on the values in your User Settings.</string>
+
+    <string name="data">Data</string>
+    <string name="export_data">Export My Data</string>
+    <string name="clear_data">Clear My Data</string>
+    <string name="clear_data_explanation">Clear my quiz and fertility data</string>
+    <string name="clear_data_warning">Are you sure? This will erase all your past question results and fertility information and cannot be undone.</string>
+    <string name="export_data_security_warning">Export data </string>
+
+    <string name="start_period_legend_text">Start period!</string>
+    <string name="end_period_legend_text">End period</string>
+    <string name="edit_period_legend_text">Edit period</string>
+
+    <string name="edit_later_hint">You can always edit this later.</string>
+    <string name="period_today">Period today</string>
+    <string name="days_till_period">days to go: </string>
+    <string name="days_period_late">Period late: </string>
+    <string name="period_due">Period due</string>
+
+    <!-- MISC -->
+    <string name="birth_control">Birth control</string>
+    <string name="number_of_days">number of days</string>
+
+    <string name="active_period">On period</string>
+    <string name="inactive_period">not on period</string>
+    <string name="period_dialog_title">Edit period for</string> <!-- followed by _date__ -->
+
+
+    <string name="period_start_stop">on your period?</string>
+
+    <string name="explain_123">what is 123?</string>
+    <string name="instruction_text_123">123 is a free Iranian domestic violence hotline. Click below to call.</string>
+
+    <string name="your_data">your data</string>
+    <string name="faq">Frequently Asked Questions</string>
+
+    <string name="or_less">-</string>
+    <string name="in_progress">loading...</string>
+
+
+    <string name="broadcast_reload_alarms" translatable="false">Broadcast: Alarms were reloaded</string>
+
+    <!-- Fertility -->
+    <string name="pill">Pill</string>
+    <string name="patch">Patch</string>
+    <string name="iud">IUD</string>
+    <string name="other">Other</string>
+    <string name="bc_none">None</string>
+
+
+    <string name="period_legend_text">Period</string>
+    <string name="ovulation_legend_text">Ovulation</string>
+    <string name="fertility_accuracy_disclaimer_text">These are predictions based on your data, and are not a substitute for medical information.</string>
+
+
+
+    <!-- DAILY STATUS TOPICS -->
+
+    <string name="questions_for_today">Today\'s questions</string>
+
+    <string name="pain">pain</string>
+    <string name="headache">headache</string>
+    <string name="backache">backache</string>
+    <string name="breast_tenderness">breast</string>
+    <string name="cramps">cramps</string>
+
+    <string name="mood">mood</string>
+    <string name="happy">happy</string>
+    <string name="neutral">neutral</string>
+    <string name="sad">sad</string>
+    <string name="pms">pms</string>
+
+    <string name="sleep">sleep</string>
+    <string name="no_sleep">0&#8211;3 hours</string>
+    <string name="little_sleep">3&#8211;6 hours</string>
+    <string name="average_sleep">6&#8211;9 hours</string>
+    <string name="lots_sleep">9+ hours</string>
+
+    <string name="sex">Sex</string>
+    <string name="protected_sex">Protected sex</string>
+    <string name="unprotected_sex">Unprotected Sex</string>
+
+    <string name="exercise">Exercise</string>
+
+    <string name="bleeding">bleeding</string>
+    <string name="light">light</string>
+    <string name="medium">medium</string>
+    <string name="heavy">heavy</string>
+    <string name="spotting">spotting</string>
+
+    <string name="fluids">Fluids</string>
+    <string name="creamy">creamy</string>
+    <string name="sticky">sticky</string>
+    <string name="eggwhite">egg-white</string>
+    <string name="abnormal">abnormal</string>
+
+    <string name="body">Body</string>
+    <string name="mind">Mind</string>
+    <string name="fertility">Fertility</string>
+
+
+    <!--REMINDERS-->
+
+    <string name="preference_options"> preferences options:</string>
+    <string name="never">Never</string>
+
+    <string name="restart_onboarding">Show tooltips</string>
+    <string name="requires_restart">Requires restart</string>
+
+    <string name="birth_control_reminder">Birth control Reminder</string>
+    <string name="breast_exam_reminder">Breast exam reminder</string>
+    <string name="pms_reminder">PMS reminder</string>
+    <string name="period_reminder">Period reminder</string>
+    <string name="select_reminder_interval">Select reminder interval</string>
+
+
+    <string name="update_prompt_title">Update</string>
+    <string name="update_prompt">A new update of Hamdam is available. Updates fix bugs and improve user experience. Download?</string>
+    <string name="download_success">Download successful</string>
+    <string name="install_update">Tap to update Hamdam</string>
+
+
+    <!-- "Remind me every .... days " in Preferences screen -->
+    <string name="remind_interval_summary">days(s) between reminders </string>
+
+    <!--INFOGRAPHIC -->
+
+    <string name="average_period_length">Average Period Length</string>
+    <string name="average_cycle_length">Average Cycle length</string>
+
+
+    <!-- ********************************************************** -->
+    <!-- END STRINGS THAT NEED TRANSLATION -->
+    <!-- ********************************************************** -->
+
+    <!-- Shared user preferences keys -->
+    <string name="birth_control_key" translatable="false">BirthControlKey</string>
+    <string name="cycle_length_key" translatable="false">CycleLengthKey</string>
+    <string name="period_length_key" translatable="false">PeriodLengthKey</string>
+    <string name="pms_length_key" translatable="false">PmsLengthKey</string>
+    <string name="last_period_date_key" translatable="false">LastPeriodStartKey</string>
+    <string name="notifications_key" translatable="false">NotificationsKey</string>
+    <string name="birth_control_reminder_key" translatable="false">BirthControlReminderKey</string>
+    <string name="breast_exam_reminder_key" translatable="false">BreastExamReminderKey</string>
+    <string name="period_reminder_key" translatable="false">PeriodReminderKey</string>
+    <string name="period_reminder_value" translatable="false">PeriodReminderKeyStoredValue</string>
+    <string name="pms_reminder_key" translatable="false">PmsReminderKey</string>
+    <string name="pms_reminder_value" translatable="false">PmsReminderKeyStoredValue</string>
+    <string name="showcase_complete_key" translatable="false">ShowcaseCompleteKey</string>
+    <string name="onboarding_complete_key" translatable="false">OnboardingCompleteKey</string>
+    <string name="clear_data_key" translatable="false">ClearDataKey</string>
+    <string name="tooltips_complete_key" translatable="false">TooltipsCompleteKey</string>
+    <string name="enable_prediction_mode_key" translatable="false">EnablePeriodPredictionModeKey</string>
+    <string name="alarm_hour_key" translatable="false">AlarmHourKey</string>
+
+    <string name="tooltips_complete_homepage_key" translatable="false">TooltipsCompleteHomePageKey</string>
+    <string name="tooltips_complete_calendar_key" translatable="false">TooltipsCompleteCalendarKey</string>
+    <string name="tooltips_complete_question_key" translatable="false">TooltipsCompleteQuestionKey</string>
+
+    <!-- Bundle keys, other constants -->
+    <string name="bundle_is_notification_intent" translatable="false">IsNotificationIntent</string>
+    <string name="bundle_notification_id" translatable="false">NotificationId</string>
+    <string name="broadcast_clear_notification" translatable="false">BroadcastClearNoticiation</string>
+
+    <!-- Misc -->
+
+    <string name="iran_time">Iran Time</string>
+
+    <string name="version">Version</string>
+    <string name="closeDrawer">Close</string>
+    <string name="openDrawer">Open</string>
+    <string name="events">Events</string>
+    <string name="today">Today</string>
+
+    <string name="goto_date">Go to date</string>
+    <string name="select">Select</string>
+
+
+</resources>

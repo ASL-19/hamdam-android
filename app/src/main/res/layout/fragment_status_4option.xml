@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hamdam.hamdam.view.fragment.statusfragments.QuizStatusFragment"
+    android:layoutDirection="ltr"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@+id/top_row">
+
+            <com.hamdam.hamdam.view.FilterImageButton
+                android:id="@+id/optionTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:padding="@dimen/status_button_padding"
+                android:layout_marginRight="@dimen/status_button_padding"
+                android:layout_marginEnd="@dimen/status_button_padding"
+                android:layout_marginLeft="@dimen/status_button_padding"
+                android:layout_marginStart="@dimen/status_button_padding"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/optionTextTwo"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/question_text_size"/>
+
+            <com.hamdam.hamdam.view.FilterImageButton
+                android:id="@+id/optionFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:padding="@dimen/status_button_padding"
+                android:layout_marginRight="@dimen/status_button_padding"
+                android:layout_marginEnd="@dimen/status_button_padding"
+                android:layout_marginLeft="@dimen/status_button_padding"
+                android:layout_marginStart="@dimen/status_button_padding"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/optionTextFour"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/question_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/top_row"
+            android:layout_toEndOf="@+id/top_row">
+
+            <com.hamdam.hamdam.view.FilterImageButton
+                android:id="@+id/optionOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:padding="@dimen/status_button_padding"
+                android:layout_marginRight="@dimen/status_button_padding"
+                android:layout_marginEnd="@dimen/status_button_padding"
+                android:layout_marginLeft="@dimen/status_button_padding"
+                android:layout_marginStart="@dimen/status_button_padding"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/optionTextOne"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/question_text_size"/>
+
+            <com.hamdam.hamdam.view.FilterImageButton
+                android:id="@+id/optionThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:padding="@dimen/status_button_padding"
+                android:layout_marginRight="@dimen/status_button_padding"
+                android:layout_marginEnd="@dimen/status_button_padding"
+                android:layout_marginLeft="@dimen/status_button_padding"
+                android:layout_marginStart="@dimen/status_button_padding"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/optionTextThree"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/question_text_size"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

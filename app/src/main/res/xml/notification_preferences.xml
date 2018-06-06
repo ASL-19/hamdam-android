@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.github.ebraminio.droidpersiancalendar.preferences.ShapedPreferenceCategory android:title="@string/notifications">
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="@string/notifications_key"
+            android:summary="@string/on"
+            android:title="@string/enable_notifications"
+            android:defaultValue="true" />
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="@string/breast_exam_reminder_key"
+            android:title="@string/enable_breast_exam_reminder"
+            android:dependency="@string/notifications_key"
+            android:defaultValue="false" />
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="@string/birth_control_reminder_key"
+            android:title="@string/enable_birth_control_reminder"
+            android:dependency="@string/notifications_key"
+            android:defaultValue="false" />
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="@string/period_reminder_key"
+            android:title="@string/enable_period_reminder"
+            android:dependency="@string/notifications_key"
+            android:defaultValue="false" />
+
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:key="@string/pms_reminder_key"
+            android:title="@string/enable_pms_reminder"
+            android:dependency="@string/notifications_key"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="@string/alarm_hour_key"
+            android:title="@string/select_time"
+            android:dependency="@string/notifications_key" />
+
+    </com.github.ebraminio.droidpersiancalendar.preferences.ShapedPreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

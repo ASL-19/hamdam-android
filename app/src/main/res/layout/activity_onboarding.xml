@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:gravity="end"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_light"
+    tools:context="org.hamdamapp.hamdam.com.hamdam.hamdam.view.activity.OnboardingActivity">
+
+    <com.hamdam.hamdam.adapters.NonSwipeViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPager">
+
+    </com.hamdam.hamdam.adapters.NonSwipeViewPager>
+
+    <com.ogaclejapan.smarttablayout.SmartTabLayout
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/navigation">
+
+        <com.hamdam.hamdam.view.FilterTouchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip"
+            android:id="@+id/skip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium_header"
+            android:background="@android:color/transparent"
+            style="?attr/borderlessButtonStyle"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/button_padding"
+            android:visibility="gone"/>
+
+        <com.hamdam.hamdam.view.FilterTouchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textSize="@dimen/text_size_medium_header"
+            android:textColor="@color/white"
+            android:id="@+id/next"
+            android:background="@android:color/transparent"
+            style="?attr/borderlessButtonStyle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/button_padding" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

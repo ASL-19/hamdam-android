@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"
+        android:gravity="end"
+        android:layoutDirection="ltr"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textAlignment="viewEnd"
+            android:layout_gravity="end"
+            android:id="@+id/fragment_fact_title"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_size_medium_header"
+            tools:ignore="MissingPrefix"
+            fontPath="fonts/iransans_bold.ttf"
+            android:paddingBottom="@dimen/toolbar_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_gravity="end"
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/text_size_medium_header"
+            android:id="@+id/fragment_fact_body"
+            android:textColor="@color/primary_text"/>
+
+        <com.hamdam.hamdam.view.FilterTouchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/return_button"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_gravity="center"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_size_title"
+            android:layout_marginTop="@dimen/button_margin_wide"
+            android:padding="@dimen/toolbar_padding"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:text="@string/back_to_topics"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/item_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/dot_container"
+        android:layout_marginBottom="1dip"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="1dip"
+        android:paddingTop="1dip">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/today"
+            style="@style/HamdamTheme.HomepageListViewStyle"
+            android:layout_width="match_parent"
+            android:minWidth="10dip"
+            android:layout_height="match_parent"
+            android:layout_margin="1px"
+            android:visibility="visible" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:id="@+id/dot_container"
+        android:layout_width="10dip"
+        android:layout_height="10dip"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dip">
+
+        <View
+            android:id="@+id/dot"
+            android:layout_gravity="center"
+            android:layout_width="3dip"
+            android:layout_height="3dip"
+            android:adjustViewBounds="true"
+            android:background="@drawable/circle_day_inactive"
+            android:scaleType="fitCenter"
+            android:visibility="visible" />
+    </LinearLayout>
+</RelativeLayout>

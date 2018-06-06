@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:gravity="end">
+
+    <TextView
+        tools:ignore="MissingPrefix"
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_title_padding"
+        android:padding="@dimen/activity_title_padding"
+        android:gravity="end"
+        android:textAlignment="viewEnd"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large_header"
+        fontPath="fonts/iransans_bold.ttf"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/containerDateSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructions"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.hamdam.hamdam.util.NumberPickerWrapper
+            android:id="@+id/dayPicker"
+            android:theme="@style/HamdamTheme.PickerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:descendantFocusability="blocksDescendants" />
+
+        <com.hamdam.hamdam.util.NumberPickerWrapper
+            android:id="@+id/monthPicker"
+            android:theme="@style/HamdamTheme.PickerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:descendantFocusability="blocksDescendants" />
+
+        <com.hamdam.hamdam.util.NumberPickerWrapper
+            android:id="@+id/yearPicker"
+            android:theme="@style/HamdamTheme.PickerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:descendantFocusability="blocksDescendants" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</RelativeLayout>

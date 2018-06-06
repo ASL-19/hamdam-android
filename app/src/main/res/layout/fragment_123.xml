@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_title_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_123"
+        android:text="@string/explain_123"
+        android:textColor="@color/medium_background_purple"
+        android:gravity="center"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_title"
+        tools:ignore="MissingPrefix"
+        fontPath="fonts/iransans_bold.ttf" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/body_123"
+        android:text="@string/instruction_text_123"
+        android:textColor="@color/medium_background_purple"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_medium_header"/>
+
+    <com.hamdam.hamdam.view.FilterTouchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dial"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:filterTouchesWhenObscured="true"
+        android:text="@string/call_button_123"
+        android:layout_margin="@dimen/button_padding"
+        android:padding="@dimen/button_padding"
+        android:textSize="@dimen/text_size_medium_header"
+        android:background="@color/light_background_purple"
+        android:textColor="@color/white"
+        android:radius="4dip" />
+
+</LinearLayout>

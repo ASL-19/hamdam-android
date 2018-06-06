@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bar_width">24dip</dimen>
+    <dimen name="legend_text_size">14sp</dimen>
+    <dimen name="question_text_size">18sp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_padding">12dp</dimen>
+    <dimen name="card_margin_vertical">10dip</dimen>
+    <dimen name="converter_padding">8dp</dimen>
+    <dimen name="divider_margin">4dp</dimen>
+    <dimen name="icon_margin">16dp</dimen>
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="icon_size_large">40dip</dimen>
+    <dimen name="legend_icon_size">14dp</dimen>
+    <dimen name="status_padding_top">23dip</dimen>
+    <dimen name="drawer_width">290dp</dimen>
+    <dimen name="period_button_padding">30dip</dimen>
+    <dimen name="drawer_header_height">56dip</dimen>
+    <dimen name="drawer_item_height">54dip</dimen>
+    <dimen name="button_padding">18dip</dimen>
+    <dimen name="period_adust_button_padding">25dip</dimen>
+    <dimen name="toolbar_padding">10dip</dimen>
+    <dimen name="toolbar_padding_horizontal">20dip</dimen>
+    <dimen name="toolbar_icon_size">20dip</dimen>
+    <dimen name="quiz_icon_size">60dip</dimen>
+    <dimen name="quiz_icon_size_land">42dip</dimen>
+    <dimen name="long_title_button_padding_land">160dip</dimen>
+    <dimen name="long_title_button_padding_portrait">80dip</dimen>
+
+    <dimen name="status_button_padding">16dip</dimen>
+    <dimen name="grid_calendar_height">340dip</dimen>
+    <dimen name="grid_calendar_padding_bottom">4dip</dimen>
+    <dimen name="quiz_button_padding_land">8dip</dimen>
+
+    <dimen name="calendar_month_margin">16dip</dimen>
+    <dimen name="activity_title_padding">26dp</dimen>
+    <dimen name="legend_padding">30dip</dimen>
+    <dimen name="legend_small_margin_padding">4dip</dimen>
+    <dimen name="button_margin_wide">40dip</dimen>
+
+    <dimen name="text_size_large_header">24sp</dimen>
+    <dimen name="text_size_title">22sp</dimen>
+    <dimen name="text_size_description">12sp</dimen>
+    <dimen name="text_size_legend_small">12sp</dimen>
+    <dimen name="text_size_drawer_subtitle">12sp</dimen>
+    <dimen name="text_size_drawer">17sp</dimen>
+    <dimen name="text_size_edit">16sp</dimen>
+    <dimen name="text_size_data_summary">14sp</dimen>
+    <dimen name="text_size_medium_header">18sp</dimen>
+
+    <dimen name="splash_icon_size">66dip</dimen>
+    <dimen name="splash_text_size_title">30sp</dimen>
+
+    <dimen name="month_view_graphic_height">30dip</dimen>
+    <dimen name="day_item_size">40dip</dimen>
+    <dimen name="day_item_select_size">38dip</dimen>
+
+    <dimen name="day_indicator_padding">4dip</dimen>
+    <dimen name="homepage_padding">20dip</dimen>
+    <dimen name="homepage_today_padding">3dip</dimen>
+    <dimen name="homepage_list_end_radius">12dip</dimen>
+    <dimen name="homepage_list_middle_radius">2dip</dimen>
+    <dimen name="card_corner_radius">4dip</dimen>
+    <dimen name="homepage_text_padding">6dip</dimen>
+
+    <!-- analogous to compat's listPreferredItemPaddingLeft/Right -->
+    <dimen name="listPreferredItemPadding">24dip</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+
+</resources>

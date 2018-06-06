@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_gradient_light"
+        android:layoutDirection="ltr"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dsTextView"
+                fontPath="fonts/iransans_bold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_title"
+                tools:ignore="MissingPrefix" />
+
+            <me.crosswall.lib.coverflow.core.LinkagePagerContainer
+                android:id="@+id/pager_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dsTextView"
+                android:clipChildren="false">
+
+                <android.support.v4.view.LinkagePager
+                    android:id="@+id/linkageTitlePager"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="8dip"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingEnd="200dp"
+                    android:paddingLeft="200dp"
+                    android:paddingRight="200dp"
+                    android:paddingStart="200dp" />
+            </me.crosswall.lib.coverflow.core.LinkagePagerContainer>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/prev"
+                android:layout_width="@dimen/long_title_button_padding_land"
+                android:layout_height="@dimen/quiz_icon_size"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/dsTextView"
+                android:layout_marginTop="@dimen/period_button_padding"
+                android:alpha="0.0"
+                android:paddingEnd="@dimen/toolbar_padding_horizontal"
+                android:paddingLeft="0dp"
+                android:paddingRight="@dimen/toolbar_padding_horizontal"
+                android:paddingStart="0dp"
+                android:tint="?attr/colorMonthSwitch"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/old_ic_keyboard_arrow_left" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/next"
+                android:layout_width="@dimen/long_title_button_padding_land"
+                android:layout_height="@dimen/quiz_icon_size"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/dsTextView"
+                android:layout_marginTop="@dimen/period_button_padding"
+                android:alpha="0.0"
+                android:paddingEnd="0dp"
+                android:paddingLeft="@dimen/toolbar_padding_horizontal"
+                android:paddingRight="0dp"
+                android:paddingStart="@dimen/toolbar_padding_horizontal"
+                android:tint="?attr/colorMonthSwitch"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/old_ic_keyboard_arrow_right" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v4.view.LinkagePager
+                android:id="@+id/linkageBodyPager"
+                android:layout_width="match_parent"
+                android:layout_height="130dip"
+                android:layout_gravity="top|center_horizontal" />
+        </LinearLayout>
+
+        <com.hamdam.hamdam.view.FilterTouchButton
+            android:id="@+id/done"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dip"
+            android:padding="10dip"
+            android:text="@string/done"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium_header" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layoutDirection="ltr"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp" />
+
+    </LinearLayout>
+</ScrollView>

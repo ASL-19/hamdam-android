@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="daily">1</integer>
+    <integer name="monthly">30</integer>
+    <integer name="default_pms_length">3</integer>
+    <integer name="default_min_cycle_length">14</integer>
+    <integer name="default_cycle_length">28</integer>
+    <integer name="default_period_length">5</integer>
+    <integer name="max_cycle_length">45</integer>
+</resources>

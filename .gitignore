@@ -1,0 +1,51 @@
+######################
+# Intellij
+######################
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Gradle
+######################
+.gradle/**
+
+######################
+# Mac OSX
+######################
+.DS_Store
+
+######################
+# Directories
+######################
+/app/build/
+/build/
+/deploy/**
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+*.hprof
+*.apk
+.merge_file*
+/local.properties
+/captures
+
+app/src/main/assets/config.properties
+.externalNativeBuild≈
+
+# Uncomment if public
+/app/src/main/assets/fonts/
+/app/src/main/java/com/hamdam/hamdam/Constants.java
+/app/src/main/res/xml/analytics.xml
+/bitbucket-pipelines.yml
+/circle.yml
+/editorconfig
+/scripts
+/app/google-services.json

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group">
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.hamdam.hamdam.view.FilterTouchButton
+            android:id="@+id/select"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center|end"
+            android:layout_margin="@dimen/button_padding"
+            android:background="@android:color/transparent"
+            android:text="@string/select"
+            android:textColor="@color/dark_background_purple" />
+
+        <com.hamdam.hamdam.view.FilterTouchButton
+            android:id="@+id/dismiss"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center|start"
+            android:layout_margin="@dimen/button_padding"
+            android:background="@android:color/transparent"
+            android:text="@string/dismiss"
+            android:textColor="@color/dark_background_purple" />
+    </RelativeLayout>
+
+</LinearLayout>

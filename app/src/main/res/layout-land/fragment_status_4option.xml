@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layoutDirection="ltr"
+    tools:context="com.hamdam.hamdam.view.fragment.statusfragments.QuizStatusFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.hamdam.hamdam.view.FilterImageButton
+            android:id="@+id/optionFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/status_button_padding"
+            android:layout_margin="@dimen/quiz_button_padding_land"/>
+
+        <TextView
+            android:id="@+id/optionTextFour"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.hamdam.hamdam.view.FilterImageButton
+            android:id="@+id/optionThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/quiz_button_padding_land"
+            android:padding="@dimen/status_button_padding" />
+
+        <TextView
+            android:id="@+id/optionTextThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.hamdam.hamdam.view.FilterImageButton
+            android:id="@+id/optionTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/quiz_button_padding_land"
+            android:padding="@dimen/status_button_padding" />
+
+        <TextView
+            android:id="@+id/optionTextTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.hamdam.hamdam.view.FilterImageButton
+            android:id="@+id/optionOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/quiz_button_padding_land"
+            android:padding="@dimen/status_button_padding" />
+
+        <TextView
+            android:id="@+id/optionTextOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

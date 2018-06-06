@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+
+    <TextView
+        android:id="@+id/status_chart_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/card_padding"
+        android:paddingTop="@dimen/card_padding"
+        android:textColor="?attr/colorTextPrimary"
+        android:textSize="@dimen/text_size_title" />
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/status_chart_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/card_margin"
+        android:layout_marginLeft="@dimen/card_margin"
+        android:layout_marginRight="@dimen/card_margin"
+        card_view:cardBackgroundColor="@android:color/white">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/status_chart_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical"
+            app:divider="?attr/appDivider"
+            app:dividerPadding="@dimen/divider_margin"
+            app:showDividers="middle">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/graph_icon"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/activity_horizontal_margin"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_data_explanation"
+                    android:gravity="end"
+                    android:layout_below="@+id/graph_icon"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="20sp"
+                    android:textColor="@color/medium_background_purple"
+                    android:text="@string/exercise_summary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_data_summary"
+                    android:layout_below="@+id/text_data_explanation"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:textSize="20sp"
+                    android:textColor="@color/medium_background_purple"/>
+
+                <TextView
+                    android:id="@+id/no_data_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/error_not_enough_data"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/text_data_explanation"
+                    android:textColor="@color/medium_background_purple"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:padding="@dimen/legend_small_margin_padding"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
